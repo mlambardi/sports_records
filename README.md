@@ -2,20 +2,26 @@
 
 Supplementary material, data and code for the paper "Analysis of sport records: A predictive approach".
 
-# Data prep
+# Data
 
+We collected the annual records (since 2021) and world records in some atheltics and aquatics disciplines by manually scraping the following two website:
+* https://worldathletics.org/
+* https://www.worldaquatics.com/
+
+The data can be loaded with:
 ```R
-source("libARGumbel.R")
+data <- read.csv("records.csv")
 ```
 
 # Data analysis
 
 ```R
 require(tidyverse)
+source("libARGumbel.R")
 # for reproducibility in calibration methods
 set.seed(1234)
 
-df <- read.csv("records.csv") |>
+df <- data |>
   filter(grepl("^\\d+ metres$", type)) |>
   as_tibble() |>
   group_by(gender, type, wr) |>
