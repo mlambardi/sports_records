@@ -4,7 +4,7 @@ Supplementary material, data and code for the paper "Analysis of sport records: 
 
 # Data
 
-We collected the annual records (since 2021) and world records in some atheltics and aquatics disciplines by manually scraping the following two website:
+We collected the annual records (since 2001) and world records in some atheltics and aquatics disciplines by manually scraping the following two website:
 * https://worldathletics.org/
 * https://www.worldaquatics.com/
 
