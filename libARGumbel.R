@@ -1,3 +1,4 @@
+source("lib.R")
 
 # Generates a sequence from an AR(1) with EVD marginals
 # The last value of the sequence can be supplied
