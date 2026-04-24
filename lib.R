@@ -234,6 +234,3 @@ calibration <- R6Class(
     }
   )
 )
-
-# for the paper's analyses:
-source("libsimpleARGumbel.R")
