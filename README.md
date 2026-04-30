@@ -8,7 +8,7 @@ We collected the annual records (since 2001) and world records in some athletics
 * https://worldathletics.org/
 * https://www.worldaquatics.com/
 
-Last checked January 2025.
+Last checked April 2026.
 
 The data can be loaded with:
 ```R
